@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokemon app</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div id="modal">
+
+        </div>
+
+        <div class="wrapper-content">
+            <button id="btn_modal" class="likee">
+                <img src="./images/like.svg" alt="header">
+              </button>
+            <section class="section" id="modall">
+                <aside class="aside" >
+                    <button id="aside_btn" class="aside_btn"><img src="./images/back.svg" alt=""></button>
+                    <ul class="aside_box" id="aside_list">
+              
+                    </ul>
+                </aside>
+            </section>
+
+            <section class="header">
+                
+                <div class="header-title">
+                    
+                    <img class="logo" src="/images/pokemon_logo 1.png" alt="POKEMON">
+                    
+    
+                </div>
+                <div class="search-sort-wrapper">
+                    <div class="ability-filter">
+                        <select name="sort" id="ability-sort">
+                            <option value="" disabled selected>Grass</option>
+                            <option value="">Poison</option>
+                            <option value="">Fire</option>
+                            <option value="">Water</option>
+                        </select>
+                    </div>
+                    <div class="search-bar">
+                        <label for="search-bar"></label>
+                        <input placeholder="Search" type="text" id="searchBar">
+                    </div>
+                    <div class="sort-wrapper">
+                        <select name="sort" id="sortOptions">
+                            <option value="" disabled selected>Aa-Zz</option>
+                            <option value="">Aa-Zz</option>
+                            <option value="">Zz-Aa</option>
+                        </select>
+                    </div>
+                    <button class="buttonsub" id="buttonsub">Button</button>
+                </div>
+
+            </section>
+
+            <ul class="pokemon-list" id="pokemonList">
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+
